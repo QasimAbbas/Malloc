@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+//Our Inital Block
 static char myblock[5000];
 
 void* mymalloc(int size){
@@ -8,6 +9,5 @@ void* mymalloc(int size){
 
 
 int main(){
-    printf("Hello World\n");
-    return 0;
+    
 }
